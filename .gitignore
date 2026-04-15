@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Word temporary files
+~$*
+
+# Course notes (personal, not part of portfolio)
+*.docx
