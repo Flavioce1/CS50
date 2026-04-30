@@ -31,9 +31,9 @@ This repository documents my journey learning the fundamentals of programming, a
 Each week has its own folder containing the corresponding problem set submissions:
 
 ```
-Week 0/   → Scratch project
-Week 1/   → C basics
-Week 2/   → Arrays
+Week 00/  → Scratch project
+Week 01/  → C basics
+Week 02/  → Arrays
 ...
 Week 10/  → Final project (moodmap)
 ```
@@ -45,7 +45,7 @@ Week 10/  → Final project (moodmap)
 C programs use the [CS50 library](https://cs50.readthedocs.io/libraries/cs50/c/):
 
 ```bash
-cd "Week 1/credit"
+cd "Week 01/credit"
 make credit
 ./credit
 ```
@@ -53,14 +53,14 @@ make credit
 Python programs (Week 6+):
 
 ```bash
-cd "Week 6/dna"
+cd "Week 06/dna"
 python dna.py databases/large.csv sequences/5.txt
 ```
 
 Flask apps (Week 9):
 
 ```bash
-cd "Week 9/finance"
+cd "Week 09/finance"
 pip install -r requirements.txt
 flask run
 ```

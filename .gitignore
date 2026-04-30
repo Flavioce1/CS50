@@ -8,4 +8,4 @@
 *.docx
 
 # Large CS50 datasets (exceed GitHub's 100MB limit)
-Week 7/movies/movies.db
+Week 07/movies/movies.db
