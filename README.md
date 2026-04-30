@@ -1,82 +1,68 @@
 # CS50x — Introduction to Computer Science
 
-> **Status: Completed (2026)** — [View Certificate](Certificate/CS50x.pdf)
+> **Status: Completed (2026)**
 
 My solutions to [Harvard's CS50x](https://cs50.harvard.edu/x/) problem sets, the world's largest introduction to computer science course.
 
 This repository documents my journey learning the fundamentals of programming, algorithms, and computational thinking.
 
-![CS50x Certificate](Certificate/CS50x.png)
-
 ---
 
 ## Course Progress — All weeks completed
 
-| Week | Topic | Status |
-|------|-------|--------|
-| 0 | Scratch | Done |
-| 1 | C | Done |
-| 2 | Arrays | Done |
-| 3 | Algorithms | Done |
-| 4 | Memory | Done |
-| 5 | Data Structures | Done |
-| 6 | Python | Done |
-| 7 | SQL | Done |
-| 8 | HTML, CSS, JavaScript | Done |
-| 9 | Flask | Done |
-| 10 | Final Project | Done |
+| Week | Topic | Problem Sets |
+|------|-------|--------------|
+| 0 | Scratch | scratch |
+| 1 | C | credit, mario-less, me |
+| 2 | Arrays | caesar, readability, scrabble |
+| 3 | Algorithms | plurality, runoff, sort |
+| 4 | Memory | filter-less, recover, volume |
+| 5 | Data Structures | inheritance, speller |
+| 6 | Python | dna, sentimental-cash, sentimental-hello, sentimental-mario-less, sentimental-readability |
+| 7 | SQL | fiftyville, movies, songs |
+| 8 | HTML, CSS, JavaScript | homepage, trivia |
+| 9 | Flask | birthdays, finance |
+| 10 | Final Project | moodmap |
 
 ---
 
-## Week 0 — Scratch
+## Repository Structure
 
-An interactive project built with [Scratch](https://scratch.mit.edu/), MIT's visual programming language. This exercise introduces core concepts like loops, conditionals, variables, and event-driven programming without writing a single line of code.
-
-**File:** `Week 0/Scratch Project.sb3`
-
----
-
-## Week 1 — C
-
-First steps with the C programming language: compiling, data types, operators, loops, and functions.
-
-### `hello.c`
-A simple program that greets the user by name. Covers standard I/O and string handling.
-
-### `mario.c`
-Prints a right-aligned pyramid of `#` blocks (inspired by Super Mario Bros). Demonstrates nested loops, user input validation, and modular design with a dedicated `print_row` function.
+Each week has its own folder containing the corresponding problem set submissions:
 
 ```
-   #
-  ##
- ###
-####
+Week 0/   → Scratch project
+Week 1/   → C basics
+Week 2/   → Arrays
+...
+Week 10/  → Final project (moodmap)
 ```
-
-### `credit.c`
-Validates credit card numbers using **Luhn's algorithm** and identifies the card type (AMEX, Mastercard, or Visa). Involves arithmetic with `long` integers, digit extraction, and multi-condition logic.
 
 ---
 
 ## How to Run
 
-These programs use the [CS50 library](https://cs50.readthedocs.io/libraries/cs50/c/). To compile and run:
+C programs use the [CS50 library](https://cs50.readthedocs.io/libraries/cs50/c/):
 
 ```bash
-# Install the CS50 library first, then:
-make hello
-./hello
-
-make mario
-./mario
-
+cd "Week 1/credit"
 make credit
 ./credit
 ```
 
-Or compile manually:
+Python programs (Week 6+):
+
 ```bash
-gcc -o credit credit.c -lcs50
+cd "Week 6/dna"
+python dna.py databases/large.csv sequences/5.txt
+```
+
+Flask apps (Week 9):
+
+```bash
+cd "Week 9/finance"
+pip install -r requirements.txt
+flask run
 ```
 
 ---
@@ -84,15 +70,15 @@ gcc -o credit credit.c -lcs50
 ## What I Learned
 
 - **Problem decomposition** — breaking complex problems into smaller, manageable functions
-- **Input validation** — handling edge cases and rejecting invalid user input
-- **Algorithm implementation** — translating a real-world algorithm (Luhn's) into working code
-- **C fundamentals** — memory, types, control flow, and the compilation process
+- **Algorithms & data structures** — sorting, searching, hash tables, tries
+- **Memory management** — pointers, dynamic allocation, file I/O in C
+- **Web development** — SQL, HTML/CSS/JS, and Flask back-end
+- **Full project lifecycle** — designing, building, and shipping the final project (moodmap)
 
 ---
 
 ## About
 
 CS50x certificate earned in **2026** after completing all 10 weeks and the final project.
-Solutions for individual weeks will be added progressively to this repository.
 
 Built by **Flavien** while learning computer science from the ground up.
