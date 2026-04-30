@@ -1,6 +1,10 @@
 # CS50x — Introduction to Computer Science
 
-> **Status: Completed (2026)**
+> **Status: Completed (2026)** — [View Certificate (PDF)](Certificate/CS50x.pdf)
+
+<p align="center">
+  <img src="Certificate/CS50x.png" alt="CS50x Certificate" width="700">
+</p>
 
 My solutions to [Harvard's CS50x](https://cs50.harvard.edu/x/) problem sets, the world's largest introduction to computer science course.
 
