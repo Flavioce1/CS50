@@ -6,3 +6,6 @@
 
 # Course notes (personal, not part of portfolio)
 *.docx
+
+# Large CS50 datasets (exceed GitHub's 100MB limit)
+Exercices/movies/movies.db

@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: sort1 is extremely fast on sorted data (13ms) but slow on random (6039ms). This matches Bubble Sort's Ω(n) best case on sorted data vs O(n²) worst case.
+
+sort2 uses: Merge Sort
+
+How do you know?: sort2 is consistently fast on all input types (~20-55ms). This matches Merge Sort's Θ(n log n) runtime regardless of input order.
+
+sort3 uses: Selection Sort
+
+How do you know?: sort3 takes the same time (~1400ms) on all input types. This matches Selection Sort's Θ(n²) - it always does the same work even on sorted data.

@@ -1,26 +1,30 @@
 # CS50x — Introduction to Computer Science
 
+> **Status: Completed (2026)** — [View Certificate](Certificate/CS50x.pdf)
+
 My solutions to [Harvard's CS50x](https://cs50.harvard.edu/x/) problem sets, the world's largest introduction to computer science course.
 
 This repository documents my journey learning the fundamentals of programming, algorithms, and computational thinking.
 
+![CS50x Certificate](Certificate/CS50x.png)
+
 ---
 
-## Course Progress
+## Course Progress — All weeks completed
 
-| Week | Topic | Projects | Status |
-|------|-------|----------|--------|
-| 0 | Scratch | Scratch Project | Done |
-| 1 | C | Hello, Mario, Credit | Done |
-| 2 | Arrays | — | In progress |
-| 3 | Algorithms | — | Upcoming |
-| 4 | Memory | — | Upcoming |
-| 5 | Data Structures | — | Upcoming |
-| 6 | Python | — | Upcoming |
-| 7 | SQL | — | Upcoming |
-| 8 | HTML, CSS, JavaScript | — | Upcoming |
-| 9 | Flask | — | Upcoming |
-| 10 | Final Project | — | Upcoming |
+| Week | Topic | Status |
+|------|-------|--------|
+| 0 | Scratch | Done |
+| 1 | C | Done |
+| 2 | Arrays | Done |
+| 3 | Algorithms | Done |
+| 4 | Memory | Done |
+| 5 | Data Structures | Done |
+| 6 | Python | Done |
+| 7 | SQL | Done |
+| 8 | HTML, CSS, JavaScript | Done |
+| 9 | Flask | Done |
+| 10 | Final Project | Done |
 
 ---
 
@@ -88,6 +92,7 @@ gcc -o credit credit.c -lcs50
 
 ## About
 
-This is an ongoing project. I will add new problem sets as I progress through the course.
+CS50x certificate earned in **2026** after completing all 10 weeks and the final project.
+Solutions for individual weeks will be added progressively to this repository.
 
 Built by **Flavien** while learning computer science from the ground up.

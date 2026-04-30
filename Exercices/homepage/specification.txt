@@ -1,0 +1,43 @@
+CS50x — Problem Set 8 : Homepage
+Auteur : Flavien
+
+== 10 balises HTML utilisées ==
+1. <nav>      — barre de navigation (présente sur toutes les pages)
+2. <a>        — liens internes et externes
+3. <h1>       — titre principal de chaque page
+4. <h2>       — sous-titres de section
+5. <p>        — paragraphes de texte
+6. <ul> / <li>— listes (formation, autres canaux)
+7. <img>      — image illustrative dans parcours.html
+8. <form>     — formulaire de contact
+9. <input>    — champs du formulaire (texte, email)
+10. <button>  — boutons (envoi, bascule thème, projets en cours)
+
+(Bonus utilisés : <section>, <article>, <footer>, <main>, <figure>,
+<figcaption>, <textarea>, <label>, <span>, <hr>, <em>, <strong>, <sup>)
+
+== 5 propriétés CSS utilisées ==
+1. background-color  — fond du body, des cartes, du footer, etc.
+2. color             — couleurs de texte et liens
+3. padding           — espacement interne (hero, cartes, navbar)
+4. margin            — espacement externe entre sections
+5. border-radius     — coins arrondis des cartes et boutons
+(Bonus : transition, transform, font-family, font-size, line-height)
+
+== 5 sélecteurs CSS utilisés ==
+1. Sélecteur de tag         : body, h1, a
+2. Sélecteur de classe      : .navbar-custom, .card-custom, .btn-accent
+3. Sélecteur d'ID           : #site-footer, #theme-toggle
+4. Pseudo-classe            : a:hover, .card-custom:hover
+5. Sélecteur descendant     : .navbar-custom .nav-link
+
+== Bootstrap ==
+J'utilise la grille (container, row, col-md-*) pour la mise en page
+responsive, la navbar avec collapse mobile, les composants form-control
+et alert, ainsi que les classes utilitaires (mt-*, py-*, text-center).
+
+== JavaScript ==
+Trois interactions : (1) bascule thème clair/sombre persistée via
+localStorage, (2) compteur de visites local sur la page Projets,
+(3) validation du formulaire de contact avec messages d'erreur ou
+de succès dynamiques.

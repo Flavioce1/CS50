@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MoodMap</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>MoodMap</h1>
+    <p>How do you feel today?</p>
+
+    <form action="/add" method="post">
+        <label><input type="radio" name="mood" value="good" required> Good</label>
+        <label><input type="radio" name="mood" value="meh"> Meh</label>
+        <label><input type="radio" name="mood" value="bad"> Bad</label>
+        <br><br>
+        <input type="text" name="note" placeholder="A short note" maxlength="200">
+        <button type="submit">Save</button>
+    </form>
+
+    <h2>Counts</h2>
+    <ul>
+        <li>Good days: {{ happy }}</li>
+        <li>Meh days: {{ meh }}</li>
+        <li>Bad days: {{ bad }}</li>
+    </ul>
+
+    <h2>All entries</h2>
+    {% if entries %}
+        <ul>
+            {% for e in entries %}
+                <li>{{ e.day }} [{{ e.mood }}] {{ e.note }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No entries yet.</p>
+    {% endif %}
+</body>
+</html>

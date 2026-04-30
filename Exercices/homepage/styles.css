@@ -1,0 +1,164 @@
+/* === Variables (thème sombre par défaut) === */
+:root {
+    --bg: #0f1419;
+    --surface: #1a2028;
+    --text: #e8e6e3;
+    --muted: #9aa0a6;
+    --accent: #ff6b3d;
+    --border: #2a3340;
+}
+
+body.light-mode {
+    --bg: #fafaf7;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --muted: #555;
+    --accent: #d94e1f;
+    --border: #e0e0e0;
+}
+
+/* === Base (sélecteur de tag) === */
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin-top: 1rem;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+/* === Sélecteur pseudo-classe === */
+a:hover {
+    text-decoration: underline;
+}
+
+/* === Sélecteur de classe === */
+.navbar-custom {
+    background-color: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 0;
+}
+
+.navbar-custom .navbar-brand {
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+/* === Sélecteur descendant === */
+.navbar-custom .nav-link {
+    color: var(--text);
+    padding: 0.5rem 1rem;
+    transition: color 0.2s ease;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+    color: var(--accent);
+}
+
+.hero {
+    padding: 4rem 1rem;
+    background-color: var(--surface);
+    border-bottom: 1px solid var(--border);
+}
+
+.hero p {
+    color: var(--muted);
+    max-width: 600px;
+    margin: 0.5rem auto;
+}
+
+.card-custom {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    height: 100%;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+}
+
+.btn-accent {
+    background-color: var(--accent);
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+}
+
+.btn-accent:hover {
+    opacity: 0.85;
+    color: #fff;
+}
+
+.counter {
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.form-control {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+}
+
+.form-control:focus {
+    background-color: var(--surface);
+    color: var(--text);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 0.15rem rgba(255, 107, 61, 0.25);
+}
+
+figcaption {
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* === Sélecteur d'ID === */
+#site-footer {
+    background-color: var(--surface);
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+#theme-toggle {
+    margin-left: 0.5rem;
+}
+
+/* === Responsive (mobile) === */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .hero {
+        padding: 2.5rem 1rem;
+    }
+}

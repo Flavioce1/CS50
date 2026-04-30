@@ -1,0 +1,26 @@
+If we treat this dataset as one listener's top 100 of 2018, their
+audio aura comes across as bright on the surface but emotionally
+ambiguous underneath. Danceability sits high, energy is consistently
+elevated, and valence floats around the middle of the scale. The
+combination paints someone who reaches for music that moves the body
+without necessarily lifting the mood — songs that fill a room rather
+than answer a feeling.
+
+The problem is that this characterization is built on three averages,
+and averages flatten everything that makes a year of listening
+interesting. A track played once at a party and a track played fifty
+times during a breakup count the same here. A summer playlist and a
+winter commute blend into a single number that belongs to neither.
+Even the chart itself is suspect: these are not one person's most
+played songs, they are everyone's. We are reading a global mood and
+calling it personal.
+
+A more honest aura would weight each song by how often the listener
+actually returned to it, separate songs that were played in passing
+from songs that became anchors, and look at how the audio features
+shift across the calendar rather than collapsing into a single point.
+Two listeners with identical averages can have nothing in common — one
+might live in the middle of the scale, the other might swing
+violently between extremes. Variance, repeat behavior, and seasonal
+drift would say far more about who someone is than the means of three
+columns.
